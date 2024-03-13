@@ -13,3 +13,12 @@ body {
   display: flex;
   gap: 5px 10px;
 }
+
+li {
+  box-shadow: 0 0 20px 16px rgba(0, 0, 0, 0.316);
+}
+
+li:hover {
+  box-shadow: 0 0 60px 6px rgba(255, 255, 255, 0.5);
+  transition: 155ms ease-out box-shadow 10ms;
+}
